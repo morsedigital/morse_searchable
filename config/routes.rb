@@ -1,4 +1,4 @@
-MorseSearchable::Engine.routes.draw do
+Rails.application.routes.draw do
   concern :searchable do
     collection do
       get :feed
