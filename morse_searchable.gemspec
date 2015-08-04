@@ -9,9 +9,7 @@ Gem::Specification.new do |s|
   s.version     = MorseSearchable::VERSION
   s.authors     = ["fredmcgroarty"]
   s.email       = ["mcfremac@icloud.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MorseSearchable."
-  s.description = "TODO: Description of MorseSearchable."
+  s.summary     = "A simple API to provide a searchable feed of associated data"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
