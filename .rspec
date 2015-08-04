@@ -1,0 +1,5 @@
+--color
+--format documentation #let's leave it at documentation so we can see where it's got to in semaphore
+#--warnings
+--require spec_helper
+#--fail-fast
