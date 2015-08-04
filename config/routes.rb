@@ -5,4 +5,8 @@ Rails.application.routes.draw do
       get :filters
     end
   end
+  if Rails.env.test? 
+    resources :fakes, concerns: :searchable
+  end
+  
 end

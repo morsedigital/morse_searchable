@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    morse_searchable (0.0.3)
+    morse_searchable (0.0.5)
       jbuilder (~> 2.0)
       rails (~> 4.2.1)
 

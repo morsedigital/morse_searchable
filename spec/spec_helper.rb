@@ -21,6 +21,16 @@ require 'shoulda/matchers'
 Dir["./spec/support/**/*.rb"].sort.each {|f| require f}
 
 Dir[File.expand_path("../support/**/*.rb",__FILE__)].each {|f| require f}
+
+
+class FakesController < ActionController::Base
+  include Searchable  
+  
+  def set_meta_filters_here(args={})
+    set_meta_filters(args)
+  end
+end
+
 class Thing
   def self.all
     []

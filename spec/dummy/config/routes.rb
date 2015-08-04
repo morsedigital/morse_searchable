@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  # mount MorseSearchable::Engine
-  
+  # resources :fakes, concerns: :searchable
+
+
 end

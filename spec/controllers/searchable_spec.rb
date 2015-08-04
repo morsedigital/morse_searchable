@@ -1,11 +1,5 @@
 require 'spec_helper'
-class FakesController
-  include Searchable  
 
-  def set_meta_filters_here(args={})
-    set_meta_filters(args)
-  end
-end
 
 describe Searchable do
 
