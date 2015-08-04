@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+MorseSearchable::Engine.routes.draw do
   concern :searchable do
     collection do
       get :feed
@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   if Rails.env.test? 
     resources :fakes, concerns: :searchable
   end
-  
+
 end
