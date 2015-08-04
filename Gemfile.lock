@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    morse_searchable (0.0.1)
+    morse_searchable (0.0.3)
       jbuilder (~> 2.0)
-      rails (~> 4.2.3)
+      rails (~> 4.2.1)
 
 GEM
   remote: https://rubygems.org/

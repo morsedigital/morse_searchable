@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "jbuilder", "~> 2.0"
-  s.add_dependency "rails", "~> 4.2.3"
+  s.add_dependency "rails", "~> 4.2.1"
 
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'pry-byebug'
