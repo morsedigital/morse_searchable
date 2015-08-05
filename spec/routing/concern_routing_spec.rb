@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+require 'pry'
 RSpec.describe "FakesController", type: :routing do
 
   describe "get /fakes/feed", type: :routing do

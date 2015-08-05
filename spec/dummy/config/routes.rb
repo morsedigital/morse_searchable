@@ -1,5 +1,12 @@
+require 'pry'
+
 Rails.application.routes.draw do
-  # resources :fakes, concerns: :searchable
+
+
+  binding.pry
+
+
+  resources :fakes, concerns: :searchable
 
 
 end
